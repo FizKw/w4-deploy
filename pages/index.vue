@@ -1,8 +1,8 @@
 <script setup>
 const config = useRuntimeConfig()
 
-let name = config.public.STUDENT_NAME ?? "Agus"
-let nim = config.public.STUDENT_NIM ?? "00000012345"
+let name = config.public.STUDENT_NAME ?? "Hafizh Kumara Widyadhana"
+let nim = config.public.STUDENT_NIM ?? "00000073191"
 </script>
 
 <template>

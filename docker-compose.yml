@@ -3,7 +3,7 @@ services:
     build:
       context: .
       args:
-        STUDENT_NAME: "Hafizh Kumara Widyadhana"
-        STUDENT_NIM: "00000073191"
+        STUDENT_NAME: Hafizh Kumara Widyadhana
+        STUDENT_NIM: 00000073191
     ports:
-      # TODO
+     - "3000:3000"
